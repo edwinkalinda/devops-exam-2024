@@ -1,6 +1,5 @@
 // TODO: Create tests suite for validation function
 const { isValid } = require('../validations');
-const { validateGamerTag } = require('../validations');
 
 
 describe('validations tests suites - isValid', () => {
