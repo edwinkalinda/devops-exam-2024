@@ -2,10 +2,10 @@
 const { isValid } = require('../validations');
 
 
-describe('validations tests suites - isValid', () => {
-    test('should return true or false as the function is defined', () => {
-        const result = isValid();
-        expect(result).toBeDefined();    
+describe('Gamer Tag Validation', () => {
+    
+    test('returns false if the gamer tag lacks a special character', () => {
+        expect(isValid('Gamer1234')).toBe(false);
     });
 });
 
