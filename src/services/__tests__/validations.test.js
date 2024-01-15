@@ -7,3 +7,4 @@ describe('validations tests suites - isValid', () => {
         expect(result).toBeDefined();
     });
 });
+
