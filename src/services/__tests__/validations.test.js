@@ -10,5 +10,9 @@ describe('Gamer Tag Validation', () => {
     test('returns false if the gamer tag is too short', () => {
         expect(isValid('Gm1!')).toBe(false);
     });
+    
+    test('returns false if the gamer tag lacks a special character', () => {
+        expect(isValid('Gamer1234')).toBe(false);
+    });
 });
 
