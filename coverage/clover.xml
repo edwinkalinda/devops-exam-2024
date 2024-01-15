@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1705333365533" clover="3.2.0">
-  <project timestamp="1705333365533" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
+<coverage generated="1705335038768" clover="3.2.0">
+  <project timestamp="1705335038768" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1" elements="28" coveredelements="28" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
     <file name="validations.js" path="/Users/edwinkalinda/Downloads/devops-exam-2024/src/services/validations.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
+      <metrics statements="15" coveredstatements="15" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="27" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="13" count="25" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="7" type="stmt"/>
+      <line num="16" count="27" type="cond" truecount="4" falsecount="0"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
